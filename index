@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>LiveAvatar</title>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    iframe {
+      width: 100%;
+      max-width: 960px;
+      height: 540px;
+      border: 0;
+    }
+  </style>
+</head>
+<body>
+  <iframe
+    src="https://embed.liveavatar.com/v1/b2b0dea1-2555-4dc2-80f8-4362aaa19071"
+    allow="microphone"
+    title="LiveAvatar Embed">
+  </iframe>
+</body>
+</html>
