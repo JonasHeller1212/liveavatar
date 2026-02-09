@@ -4,27 +4,36 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>LiveAvatar</title>
+
   <style>
-    body {
+    html, body {
       margin: 0;
-      height: 100vh;
+      padding: 0;
+      height: 100%;
+      background: #ffffff;
+    }
+
+    body {
       display: flex;
       align-items: center;
       justify-content: center;
     }
+
     iframe {
       width: 100%;
       max-width: 960px;
       height: 540px;
-      border: 0;
+      border: none;
     }
   </style>
 </head>
 <body>
+
   <iframe
     src="https://embed.liveavatar.com/v1/b2b0dea1-2555-4dc2-80f8-4362aaa19071"
-    allow="microphone"
-    title="LiveAvatar Embed">
+    title="LiveAvatar"
+    allow="microphone; autoplay; clipboard-read; clipboard-write">
   </iframe>
+
 </body>
 </html>
